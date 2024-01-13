@@ -1,6 +1,22 @@
+
+/* re-use  */
 :root {
   --brand-color: #ff2276;
 }
+.section-gap{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.section-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    /* color: #333; */
+}
+
+
+
+
+/* header  */
 .navbar {
   background-color: var(--brand-color) !important;
 }
@@ -18,7 +34,7 @@ header {
   position: relative;
 }
 body {
-  height: 1900px;
+  height: 3900px;
 }
 .header-content {
   position: absolute;
@@ -46,3 +62,35 @@ body {
   background-color: #550e28;
   color: #fff;
 }
+
+
+
+
+/* Services  */
+ion-icon {
+    font-size: 64px;
+    color: var(--brand-color);
+    margin-bottom: 25px;
+  }
+
+
+
+
+  /* clients  */
+  .clients{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../img/clients.jpg);
+    background-position: left top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+  }
+  .owl-carousel img{
+    width: 237px !important;
+    height: 120px !important;
+    border-color: var(--brand-color);
+  }
+  .clients-carousel{
+    padding: 150px 0;
+  }
