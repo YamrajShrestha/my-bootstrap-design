@@ -30,6 +30,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- header starts -->
@@ -80,13 +81,20 @@
         </div>
       </nav>
       <div class="header-content">
-        <h2 class="content-title">Time Fadeout, Design Doesn't</h2>
-        <p class="content-text">
+        <h2
+          class="content-title"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
+          Time Fadeout, Design Doesn't
+        </h2>
+        <p class="content-text" data-aos="fade-up">
           Morbi bibendum risus non nunc feugiat, quis venenatis augue fringilla.
           Morbi vestibulum elit eget leo congue elementum. Aliquam at turpis
           urna. Nam pulvinar tincidunt posuere.
         </p>
-        <a href="#" class="btn">Explore Awesomeness</a>
+        <a href="#" class="btn" data-aos="fade-up">Explore Awesomeness</a>
       </div>
     </header>
     <!-- header ends -->
@@ -95,12 +103,18 @@
     <div class="section-gap">
       <div id="services">
         <div class="container">
-          <h2 class="section-title text-center">our services</h2>
-          <p class="text-center">
+          <h2 class="section-title text-center" data-aos="fade-up">
+            our services
+          </h2>
+          <p class="text-center" data-aos="fade-up">
             Consectetur adipiscing elit felis dolor felis dolor vitae. Eelit
             felis dolor vitae
           </p>
-          <div class="row text-center mt-5 gy-4">
+          <div
+            class="row text-center mt-5 gy-4"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <div class="col-lg-3 col-md-6">
               <ion-icon name="cloud-outline"></ion-icon>
               <h5 class="fw-bold mb-3">Service Name # 1</h5>
@@ -240,8 +254,10 @@
     <div class="section-gap">
       <div class="work" id="work">
         <div class="container">
-          <h2 class="section-title text-center">WORK PORFOLIO</h2>
-          <p class="text-center">
+          <h2 class="section-title text-center" data-aos="fade-up">
+            WORK PORFOLIO
+          </h2>
+          <p class="text-center" data-aos="fade-up">
             Consectetur adipiscing elit felis dolor felis dolor vitae.Eelit
             felis dolor vitae
           </p>
@@ -262,7 +278,7 @@
                       data-fancybox
                       data-caption="Single image"
                     >
-                      <img src="img/1.jpg" width="342" height="213"/>
+                      <img src="img/1.jpg" width="342" height="213" />
                     </a>
                   </div>
                   <div class="col-lg-4">
@@ -271,7 +287,7 @@
                       data-fancybox
                       data-caption="Single image"
                     >
-                      <img src="img/2.jpg" width="342" height="213"/>
+                      <img src="img/2.jpg" width="342" height="213" />
                     </a>
                   </div>
                   <div class="col-lg-4">
@@ -280,7 +296,7 @@
                       data-fancybox
                       data-caption="Single image"
                     >
-                      <img src="img/3.jpg" width="342" height="213"/>
+                      <img src="img/3.jpg" width="342" height="213" />
                     </a>
                   </div>
                   <div class="col-lg-4">
@@ -289,7 +305,7 @@
                       data-fancybox
                       data-caption="Single image"
                     >
-                      <img src="img/4.jpg" width="342" height="213"/>
+                      <img src="img/4.jpg" width="342" height="213" />
                     </a>
                   </div>
                   <div class="col-lg-4">
@@ -298,7 +314,7 @@
                       data-fancybox
                       data-caption="Single image"
                     >
-                      <img src="img/5.jpg" width="342" height="213"/>
+                      <img src="img/5.jpg" width="342" height="213" />
                     </a>
                   </div>
                   <div class="col-lg-4">
@@ -307,141 +323,282 @@
                       data-fancybox
                       data-caption="Single image"
                     >
-                      <img src="img/6.jpg" width="342" height="213"/>
+                      <img src="img/6.jpg" width="342" height="213" />
                     </a>
                   </div>
-                  
-              </div>
-              <div id="tabs-2">
-                <div class="row gy-3 text-center justify-content-center">
-                  <div class="col-lg-4">
-                    <a
-                      href="img/1.jpg"
-                      data-fancybox
-                      data-caption="Single image"
-                    >
-                      <img src="img/1.jpg" width="342" height="213"/>
-                    </a>
+                </div>
+                <div id="tabs-2">
+                  <div class="row gy-3 text-center justify-content-center">
+                    <div class="col-lg-4">
+                      <a
+                        href="img/1.jpg"
+                        data-fancybox
+                        data-caption="Single image"
+                      >
+                        <img src="img/1.jpg" width="342" height="213" />
+                      </a>
+                    </div>
+                    <div class="col-lg-4">
+                      <a
+                        href="img/2.jpg"
+                        data-fancybox
+                        data-caption="Single image"
+                      >
+                        <img src="img/2.jpg" width="342" height="213" />
+                      </a>
+                    </div>
+                    <div class="col-lg-4">
+                      <a
+                        href="img/3.jpg"
+                        data-fancybox
+                        data-caption="Single image"
+                      >
+                        <img src="img/3.jpg" width="342" height="213" />
+                      </a>
+                    </div>
                   </div>
-                  <div class="col-lg-4">
-                    <a
-                      href="img/2.jpg"
-                      data-fancybox
-                      data-caption="Single image"
-                    >
-                      <img src="img/2.jpg" width="342" height="213"/>
-                    </a>
+                </div>
+                <div id="tabs-3">
+                  <div class="row gy-3 text-center justify-content-center">
+                    <div class="col-lg-4">
+                      <a
+                        href="img/1.jpg"
+                        data-fancybox
+                        data-caption="Single image"
+                      >
+                        <img src="img/1.jpg" width="342" height="213" />
+                      </a>
+                    </div>
+                    <div class="col-lg-4">
+                      <a
+                        href="img/2.jpg"
+                        data-fancybox
+                        data-caption="Single image"
+                      >
+                        <img src="img/2.jpg" width="342" height="213" />
+                      </a>
+                    </div>
+                    <div class="col-lg-4">
+                      <a
+                        href="img/3.jpg"
+                        data-fancybox
+                        data-caption="Single image"
+                      >
+                        <img src="img/3.jpg" width="342" height="213" />
+                      </a>
+                    </div>
                   </div>
-                  <div class="col-lg-4">
-                    <a
-                      href="img/3.jpg"
-                      data-fancybox
-                      data-caption="Single image"
-                    >
-                      <img src="img/3.jpg" width="342" height="213"/>
-                    </a>
+                </div>
+                <div id="tabs-4">
+                  <div class="row gy-3 text-center justify-content-center">
+                    <div class="col-lg-4">
+                      <a
+                        href="img/1.jpg"
+                        data-fancybox
+                        data-caption="Single image"
+                      >
+                        <img src="img/1.jpg" width="342" height="213" />
+                      </a>
+                    </div>
+                    <div class="col-lg-4">
+                      <a
+                        href="img/2.jpg"
+                        data-fancybox
+                        data-caption="Single image"
+                      >
+                        <img src="img/2.jpg" width="342" height="213" />
+                      </a>
+                    </div>
+                    <div class="col-lg-4">
+                      <a
+                        href="img/3.jpg"
+                        data-fancybox
+                        data-caption="Single image"
+                      >
+                        <img src="img/3.jpg" width="342" height="213" />
+                      </a>
+                    </div>
                   </div>
+                </div>
+                <div id="tabs-5">
+                  <div class="row gy-3 text-center justify-content-center">
+                    <div class="col-lg-4">
+                      <a
+                        href="img/1.jpg"
+                        data-fancybox
+                        data-caption="Single image"
+                      >
+                        <img src="img/1.jpg" width="342" height="213" />
+                      </a>
+                    </div>
+                    <div class="col-lg-4">
+                      <a
+                        href="img/2.jpg"
+                        data-fancybox
+                        data-caption="Single image"
+                      >
+                        <img src="img/2.jpg" width="342" height="213" />
+                      </a>
+                    </div>
+                    <div class="col-lg-4">
+                      <a
+                        href="img/3.jpg"
+                        data-fancybox
+                        data-caption="Single image"
+                      >
+                        <img src="img/3.jpg" width="342" height="213" />
+                      </a>
+                    </div>
                   </div>
-              </div>
-              <div id="tabs-3">
-                <div class="row gy-3 text-center justify-content-center">
-                  <div class="col-lg-4">
-                    <a
-                      href="img/1.jpg"
-                      data-fancybox
-                      data-caption="Single image"
-                    >
-                      <img src="img/1.jpg" width="342" height="213"/>
-                    </a>
-                  </div>
-                  <div class="col-lg-4">
-                    <a
-                      href="img/2.jpg"
-                      data-fancybox
-                      data-caption="Single image"
-                    >
-                      <img src="img/2.jpg" width="342" height="213"/>
-                    </a>
-                  </div>
-                  <div class="col-lg-4">
-                    <a
-                      href="img/3.jpg"
-                      data-fancybox
-                      data-caption="Single image"
-                    >
-                      <img src="img/3.jpg" width="342" height="213"/>
-                    </a>
-                  </div>
-                  </div>
-              </div>
-              <div id="tabs-4">
-                <div class="row gy-3 text-center justify-content-center">
-                  <div class="col-lg-4">
-                    <a
-                      href="img/1.jpg"
-                      data-fancybox
-                      data-caption="Single image"
-                    >
-                      <img src="img/1.jpg" width="342" height="213"/>
-                    </a>
-                  </div>
-                  <div class="col-lg-4">
-                    <a
-                      href="img/2.jpg"
-                      data-fancybox
-                      data-caption="Single image"
-                    >
-                      <img src="img/2.jpg" width="342" height="213"/>
-                    </a>
-                  </div>
-                  <div class="col-lg-4">
-                    <a
-                      href="img/3.jpg"
-                      data-fancybox
-                      data-caption="Single image"
-                    >
-                      <img src="img/3.jpg" width="342" height="213"/>
-                    </a>
-                  </div>
-                  </div>
-              </div>
-              <div id="tabs-5">
-                <div class="row gy-3 text-center justify-content-center">
-                  <div class="col-lg-4">
-                    <a
-                      href="img/1.jpg"
-                      data-fancybox
-                      data-caption="Single image"
-                    >
-                      <img src="img/1.jpg" width="342" height="213"/>
-                    </a>
-                  </div>
-                  <div class="col-lg-4">
-                    <a
-                      href="img/2.jpg"
-                      data-fancybox
-                      data-caption="Single image"
-                    >
-                      <img src="img/2.jpg" width="342" height="213"/>
-                    </a>
-                  </div>
-                  <div class="col-lg-4">
-                    <a
-                      href="img/3.jpg"
-                      data-fancybox
-                      data-caption="Single image"
-                    >
-                      <img src="img/3.jpg" width="342" height="213"/>
-                    </a>
-                  </div>
-                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="testimonial">
+      <div class="testimonial-content text-center">
+        <i class="bx bx-menu"></i>
+        <p class="text-light">
+          Consectetur adipiscing elit felis dolor felis dolor vitae. Consectetur
+          adipiscing elit felis dolor felis dolor vitae.Eelit felis dolor vitae
+          felis dolor vitae
+        </p>
+      </div>
+    </div>
     <!-- work ends -->
+
+    <!-- team starts -->
+    <div class="section-gap">
+      <div class="team" id="team">
+        <div class="container">
+          <h2 class="section-title text-center">AWESOME TEAM</h2>
+          <p class="text-center">
+            Consectetur adipiscing elit felis dolor felis dolor vitae.Eelit
+            felis dolor vitae
+          </p>
+          <div class="section-gap"></div>
+          <div class="row gy-5">
+            <div class="col-lg-6">
+              <div class="row align-items-center">
+                <div class="col-lg-2 me-5">
+                  <div class="d-flex h-100">
+                    <div class="image_outer_container">
+                      <div class="green_icon"></div>
+                      <div class="image_inner_container">
+                        <img src="img/test-1.jpg" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 ms-5">
+                  <h4 class="fw-bold">Technical Director</h4>
+                  <p>
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life
+                    accusamus terry richardson ad squid. 3 wolf moon officia
+                    aute, non cupidatat skateboard dolor brunch.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="row align-items-center">
+                <div class="col-lg-2 me-5">
+                  <div class="d-flex h-100">
+                    <div class="image_outer_container">
+                      <div class="green_icon"></div>
+                      <div class="image_inner_container">
+                        <img src="img/test-2.jpg" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 ms-5">
+                  <h4 class="fw-bold">Marketing Director</h4>
+                  <p>
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life
+                    accusamus terry richardson ad squid. 3 wolf moon officia
+                    aute, non cupidatat skateboard dolor brunch.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="row align-items-center">
+                <div class="col-lg-2 me-5">
+                  <div class="d-flex h-100">
+                    <div class="image_outer_container">
+                      <div class="green_icon"></div>
+                      <div class="image_inner_container">
+                        <img src="img/test-3.jpg" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 ms-5">
+                  <h4 class="fw-bold">Client Manager</h4>
+                  <p>
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life
+                    accusamus terry richardson ad squid. 3 wolf moon officia
+                    aute, non cupidatat skateboard dolor brunch.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="row align-items-center">
+                <div class="col-lg-2 me-5">
+                  <div class="d-flex h-100">
+                    <div class="image_outer_container">
+                      <div class="green_icon"></div>
+                      <div class="image_inner_container">
+                        <img src="img/test-4.jpg" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 ms-5">
+                  <h4 class="fw-bold">Support Director</h4>
+                  <p>
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life
+                    accusamus terry richardson ad squid. 3 wolf moon officia
+                    aute, non cupidatat skateboard dolor brunch.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- team ends -->
+
+    <!-- contact starts -->
+    <div class="contact" id="contact">
+      <div class="contact-content text-center">
+        <h2 class="section-title text-white">stay connected</h2>
+        <p class="text-light">
+          Consectetur adipiscing elit felis dolor felis dolor vitae.Eelit felis
+          dolor vitae
+        </p>
+        <div class="section-gap"></div>
+        <h4 class="text-white fw-bold">Address:</h4>
+        <p class="text-light">
+          102, Melborne City International, <br />
+          United States <br />
+          Email : info@yourdomain.com
+        </p>
+      </div>
+    </div>
+    <!-- contact ends -->
+
+    <!-- footer starts -->
+    <footer class="text-center py-2">
+      &copy 2015 YourDomain.com |
+      <a class="text-dark" href="#">by DesignBootstrap</a>
+    </footer>
+    <!-- footer ends -->
 
     <script src="js/main.js"></script>
     <script
@@ -460,6 +617,9 @@
     ></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       $(document).ready(function () {
         $(".owl-carousel").owlCarousel({
@@ -478,19 +638,20 @@
         });
       });
     </script>
-    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     <script>
       $(function () {
         $("#tabs").tabs();
       });
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <script>
       Fancybox.bind("[data-fancybox]", {
         Images: {
           initialSize: "fit",
         },
       });
+    </script>
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>

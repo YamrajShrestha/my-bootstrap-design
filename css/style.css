@@ -1,20 +1,16 @@
-
 /* re-use  */
 :root {
   --brand-color: #ff2276;
 }
-.section-gap{
-    margin-top: 100px;
-    margin-bottom: 100px;
+.section-gap {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
-.section-title{
-    text-transform: uppercase;
-    font-weight: bold;
-    /* color: #333; */
+.section-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  /* color: #333; */
 }
-
-
-
 
 /* header  */
 .navbar {
@@ -32,9 +28,6 @@ header {
   background-size: cover;
   height: 70vh;
   position: relative;
-}
-body {
-  height: 3900px;
 }
 .header-content {
   position: absolute;
@@ -63,34 +56,106 @@ body {
   color: #fff;
 }
 
-
-
-
 /* Services  */
 ion-icon {
-    font-size: 64px;
-    color: var(--brand-color);
-    margin-bottom: 25px;
-  }
+  font-size: 64px;
+  color: var(--brand-color);
+  margin-bottom: 25px;
+}
 
-
-
-
-  /* clients  */
-  .clients{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+/* clients  */
+.clients {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(../img/clients.jpg);
-    background-position: left top;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 45vh;
-  }
-  .owl-carousel img{
-    width: 237px !important;
-    height: 120px !important;
-    border-color: var(--brand-color);
-  }
-  .clients-carousel{
-    padding: 150px 0;
-  }
+  background-position: left top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+}
+.owl-carousel img {
+  width: 237px !important;
+  height: 120px !important;
+  border-color: var(--brand-color);
+}
+.clients-carousel {
+  padding: 150px 0;
+}
+
+/* work  */
+.testimonial {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../img/testimonial.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 35vh;
+  position: relative;
+}
+.testimonial-content {
+  max-width: 20%;
+  position: absolute;
+  top: 30%;
+  left: 38%;
+}
+.testimonial-content .bx-menu {
+  color: var(--brand-color);
+}
+
+/* team  */
+.image_outer_container {
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 50%;
+  position: relative;
+}
+
+.image_inner_container {
+  border-radius: 50%;
+  padding: 5px;
+  background: #833ab4;
+  background: -webkit-linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
+}
+
+.image_inner_container img {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.image_outer_container .green_icon {
+  background-color: #4cd137;
+  position: absolute;
+  right: 30px;
+  bottom: 10px;
+  height: 30px;
+  width: 30px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+/* contact  */
+.contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../img/clients.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 45vh;
+  position: relative;
+}
+.contact-content{
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+
+
+
+
+/* footer  */
+
